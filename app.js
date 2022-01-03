@@ -56,7 +56,7 @@ class Ship {
     attack(target) {
         if ( Math.random() <= this.accuracy) {
             return console.log("Hit!");
-            target.hull =- this.firepower;
+            target.hull -= this.firepower;
 
         } else {
             return console.log("Miss!");
